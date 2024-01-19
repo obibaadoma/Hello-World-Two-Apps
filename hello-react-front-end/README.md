@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-    <h1><b>Hello World React and Rails</b></h1>
+    <h1><b>Hello-React-FrontEnd</b></h1>
 </div>
 
 ---
@@ -11,7 +11,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Hello World React and Rails ](#-hello-world-react-and-rails-)
+- [📖 Hello-React-FrontEnd](#-hello-react-frontend)
       - [Learning objectives](#learning-objectives)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
@@ -33,9 +33,9 @@
 
 <!-- ! PROJECT DESCRIPTION -->
 
-# 📖 Hello World React and Rails <a name="about-project"></a>
+# 📖 Hello-React-FrontEnd<a name="about-project"></a>
 
-> Hello Rails + React is a project that aims to connect a Ruby on Rails back-end with a React front-end.
+> Hello-React-FrontEnd is a project that aims to connect a Ruby on Rails back-end with a [Rails-Api-Backend](https://github.com/obibaadoma/Hello-Rails-Api-Backend/tree/backend-Api).
 
 #### Learning objectives
 
@@ -58,33 +58,8 @@
       </a>
     </li>
     <li>
-      <a href="https://reactjs.org/">
-        <img src="https://skillicons.dev/icons?i=react"/> React
-      </a>
-    </li>
-    <li>
-      <a href="https://redux.js.org/">
-        <img src="https://skillicons.dev/icons?i=redux"/> Redux
-      </a>
-    </li>
-    <li>
-      <a href="https://www.javascript.com/">
-        <img src="https://skillicons.dev/icons?i=javascript"/> JavaScript
-      </a>
-    </li>
-    <li>
       <a href="https://www.postgresql.org/">
         <img src="https://skillicons.dev/icons?i=postgresql"/> PostgreSQL
-      </a>
-    </li>
-    <li>
-      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-        <img src="https://skillicons.dev/icons?i=css"/> CSS
-      </a>
-    </li>
-    <li>
-      <a href="https://www.w3schools.com/html/">
-        <img src="https://skillicons.dev/icons?i=html"/> HTML5
       </a>
     </li>
   </ul>
@@ -93,7 +68,7 @@
 
 ### :key: Key Features <a name="key-features"></a>
 
-- Rails back-end with React front-end.
+- Rails API back-end with PostgreSQL database.
 
 ---
 
@@ -123,21 +98,21 @@ Example commands:
 
 ```bash
   cd my-folder
-  git clone git@github.com:obibaadoma/hello_rails_react.git
+  git clone git@github.com:obibaadoma/Hello-React-FrontEnd.git](https://github.com/obibaadoma/Hello-React-FrontEnd.git)
 ```
 
 - With HTTPS:
 
 ```bash
   cd my-folder
-  git clone https://github.com/obibaadoma/hello_rails_react.git
+  git clone obibaadoma/Hello-React-FrontEnd.git
 ```
 
 - With GitHub CLI:
 
 ```bash
   cd my-folder
-  gh repo clone obibaadoma/hello_rails_react
+  gh repo clone obibaadoma/Hello-React-FrontEnd.git
 ```
 
 ### Install <a name="install"></a>
@@ -145,7 +120,7 @@ Example commands:
 Go to the project directory:
 
 ```bash
- cd hello_rails_react
+ cd Hello-React-FrontEnd
 ```
 
 Before running the program, verify that you have Ruby on Rails installed on your OS by running the following command:
@@ -181,11 +156,14 @@ Then run the following command to migrate the database and seed it with the nece
 
 Run the following command inside the project folder to start the application:
 
+Note: The application will run in port 3001 since the front-end will run in port 3000.
+Port 3001 is not the default, so you are free to change it if you want.
+
 ```bash
- ./bin/dev
+    rails s -p 3001
 ```
 
-This will start the application on your local server. You can now open your browser and go to [http://localhost:3000/](http://localhost:3000/) to see the application running.
+This will start the application on your local server. You can now open your browser and go to [http://localhost:3001/](http://localhost:3001/) to see the application running.
 
 ### Run tests <a name="run-tests"></a>
 
@@ -203,10 +181,12 @@ To execute the tests, run the following command inside the project folder (root)
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Derek Akrasi Konadu**
+👤 **Arthur Iturres**
 
 - GitHub: [@ITurres](https://github.com/obibaadoma)
 - LinkedIn: [Arthur Emanuel G. Iturres](https://www.linkedin.com/derek-akrasi-konadu/)
+- 
+- Portfolio: [Arthur Iturres - Portfolio](www.github.com/obibaadoma)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -228,7 +208,7 @@ To execute the tests, run the following command inside the project folder (root)
 
 Contributions, issues, and feature requests are welcome!
 
-Kindly open any new issues or feature requests on the [repo's issues page](https://github.com/obibaadoma/hello_rails_react/issues).
+Kindly open any new issues or feature requests on the [repo's issues page](https://github.com/obibaadoma/Hello-React-FrontEnd/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
