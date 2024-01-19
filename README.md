@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-    <h1><b>Hello Rails + React</b></h1>
+    <h1><b>Hello World React and Rails</b></h1>
 </div>
 
 ---
@@ -11,7 +11,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Hello Rails + React ](#-hello-rails--react-)
+- [📖 Hello World React and Rails ](#-hello-world-react-and-rails-)
       - [Learning objectives](#learning-objectives)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
@@ -33,7 +33,7 @@
 
 <!-- ! PROJECT DESCRIPTION -->
 
-# 📖 Hello Rails + React <a name="about-project"></a>
+# 📖 Hello World React and Rails <a name="about-project"></a>
 
 > Hello Rails + React is a project that aims to connect a Ruby on Rails back-end with a React front-end.
 
