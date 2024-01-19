@@ -1,8 +1,11 @@
-// store.js
+// src/redux/store.js
+import rootReducer from './reducers';
 import { createStore, applyMiddleware } from 'redux';
-import thunkMiddleware from 'redux-thunk';
-import greetingReducer from './reducers';
+import { thunk } from 'redux-thunk';
 
-const store = createStore(greetingReducer, applyMiddleware(thunkMiddleware));
+const store = createStore(
+  rootReducer,
+  applyMiddleware(thunk)
+);
 
 export default store;
